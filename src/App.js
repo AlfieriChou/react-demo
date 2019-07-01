@@ -1,10 +1,16 @@
 import React, { Component } from 'react'
 import HelloWorld from './components/HelloWorld'
 import './App.css'
+import Timer from './components/Timer'
 
 class App extends Component {
   render() {
-    return <HelloWorld text="Hello World" />
+    return (
+      <div>
+        <HelloWorld text="Hello World" />
+        <Timer />
+      </div>
+    )
   }
 }
 
